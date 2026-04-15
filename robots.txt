@@ -1,0 +1,142 @@
+# ============================================
+# robots.txt — Full AEO & GEO Crawler Access
+# Updated: 2026-04-16
+# ============================================
+
+# ===== Standard Search Engine Crawlers =====
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ===== OpenAI / ChatGPT Crawlers =====
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ===== Anthropic / Claude Crawlers =====
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# ===== Google AI (Gemini, AI Overviews, SGE) =====
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# ===== Perplexity AI =====
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ===== Common Crawl (powers many AI training sets) =====
+User-agent: CCBot
+Allow: /
+
+# ===== Cohere AI =====
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# ===== Meta AI (Facebook, Instagram, WhatsApp AI) =====
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ===== Apple Intelligence =====
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ===== Amazon AI (Alexa, Rufus, Q) =====
+User-agent: Amazonbot
+Allow: /
+
+# ===== ByteDance / TikTok AI =====
+User-agent: Bytespider
+Allow: /
+
+# ===== Mistral AI =====
+User-agent: MistralAI-User
+Allow: /
+
+# ===== You.com AI Search =====
+User-agent: YouBot
+Allow: /
+
+# ===== Diffbot (used by many AI tools) =====
+User-agent: Diffbot
+Allow: /
+
+# ===== Andi / Phind AI Search =====
+User-agent: AndiBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+# ===== DuckAssist (DuckDuckGo AI) =====
+User-agent: DuckAssistBot
+Allow: /
+
+# ===== Brave Search AI =====
+User-agent: BraveBot
+Allow: /
+
+# ===== Neeva / Other =====
+User-agent: NeevaBot
+Allow: /
+
+# ===== Sitemap Reference =====
+Sitemap: https://supplementinsider.github.io/cardio-slim-tea-reviews/sitemap.xml
